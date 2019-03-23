@@ -1,0 +1,91 @@
+body {
+    font-family: Open-Sans, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: #505050;
+}
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .heading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+main section {
+    flex: 0 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+main section a {
+    margin: 0 24px 24px 24px;
+}
+
+main section a.large {
+    min-width: 320px;
+    max-width: 460px;
+}
+
+main section a.medium {
+    min-width: 260px;
+    max-width: 320px;
+}
+
+main section a.small {
+    min-width: 180px;
+    max-width: 240px;
+}
+
+main section a.smallest {
+    min-width: 90px;
+    max-width: 120px;
+}
+
+main section a img {
+    width: 100%;
+    max-height: 100%;
+}
+
+main section .img-link-container a>img {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: Open-Sans, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+input:focus {
+    outline: 0;
+}
+
+/* Util */
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
